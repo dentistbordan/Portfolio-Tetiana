@@ -1,0 +1,40 @@
+body{
+    background-color: #dff0f8;
+}
+.about{
+    text-align: center;
+    margin-top: 70px;
+}
+h1{
+    font-size: 70px;
+    margin:0 auto;
+}
+h3{
+    margin-top: 0;
+    color: rgb(71, 67, 67);
+}
+footer{
+    text-align: center;
+    font-size: larger;
+    line-height: 0.5;
+}
+a:hover{
+    color: blueviolet;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 80px;
+    
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.img-first{
+   max-width: 100%;
+   height: auto;
+   
+}
