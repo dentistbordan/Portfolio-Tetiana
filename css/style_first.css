@@ -185,6 +185,7 @@ width: 500px;
         .about-app{
             text-align: center;
             padding: 0;
+            font-size:10px;
         }
         .text{
             background-color: var(--second-color);
@@ -199,4 +200,17 @@ width: 500px;
            padding:0;
 
         }
+        .work-app{
+            text-align: center;
+            font-size: 10px;
+            padding-bottom: 40px;
+            margin: 50px 66px 52px 69px;
+        }
+        .work-app h1{
+            font-size: 40px;
+        }
+        .work-app p{
+            font-size: 15px;
+        }
+        
     }
