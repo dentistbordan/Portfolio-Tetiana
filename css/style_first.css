@@ -9,7 +9,7 @@
 body{
     background-color: var(--second-color);
 }
-h1{
+ h1{
     font-size: 50px;
     margin: var(--margin);
     color: var(--second-color);
@@ -53,9 +53,42 @@ footer{
     text-align: center;
     margin-bottom: 30px;
    } 
+.about-app{
+    padding: 80px 20px;
+    background-color: var(--second-color);
+    } 
+.work-app{
+    background-color: #dadada;
+    text-align: center;
+    margin: 50px 157px 30px 157px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}      
+.about-section-content{
+    margin: 30px;
+    }
+    .work-get{
+        margin-top: 35px;
+    }
 .home h4{
     opacity: 0.5;
+    }    
+.about-app h1{
+    font-family: var(--first-font);
+    color: var(--first-color);
+    font-size: 55px;
+    line-height: 60px;
     }
+.about-app h2{
+    color: var(--first-color);
+    font-size: 35px;
+    }
+.about-app p{
+    font-size: 18px;
+    font-family: var(--second-font);
+    }   
+
+  
 .link{
     display: flex;
     justify-content:center;
@@ -71,6 +104,20 @@ footer{
     margin-bottom: 40px;
     cursor: pointer;
    }
+   .projects-get{
+    border: 1px solid #45464A;
+    box-shadow: 4px 2px 2px #8f9095;
+    color: #45464A;
+    border-radius: 7px;
+    background-color: var(--second-color);
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+font-size: 18px;
+font-family: var(--second-font);
+line-height: 27px;
+   }
+
 .links:visited{
     color:#3787FE;
     }
@@ -78,8 +125,17 @@ footer{
     color: var(--second-color);
     background-color: #3787FE;
     text-decoration: none;
-    }
-    
+    }  
+.projects-get:hover{
+    color: var(--second-color);
+    background-color: var(--first-color);
+    text-decoration: none;
+}    
+.foto{
+    border-radius: 7px;
+width: 500px;
+
+}    
 .section{
     display: flex;
     justify-content:space-around;
@@ -125,6 +181,10 @@ footer{
         h5{
             font-weight:200;
             text-align: center;
+        }
+        .about-app{
+            text-align: center;
+            padding: 0;
         }
         .text{
             background-color: var(--second-color);
