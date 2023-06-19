@@ -21,6 +21,9 @@ footer{
 a:hover{
     color: blueviolet;
 }
+nav a:hover{
+color:orange;
+}
 .info{
     display: flex;
     justify-content: center;

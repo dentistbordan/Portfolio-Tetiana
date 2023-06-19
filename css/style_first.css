@@ -41,7 +41,6 @@ footer{
     font-size: larger;
     line-height: 2.5;
     }
-
 .top{
     background-color: var(--first-color);
     width: 100%;
@@ -67,12 +66,13 @@ footer{
 .content{
     margin: 30px;
     }
-    .content-app{
+.content-app{
         margin: 90px 157px;
     }
-    .work-get{
+.work-get{
         margin-top: 35px;
     }
+
 .home h4{
     opacity: 0.5;
     }    
@@ -87,7 +87,7 @@ footer{
     font-size: 35px;
     font-family: var(--second-font);
     }
-    .content h3{
+.content h3{
         margin: 20px 0 0;
         font-size: 34px;
         line-height: 1.5;
@@ -99,7 +99,7 @@ footer{
     margin: 0;
     padding: 0;
     }   
-    .content-app h1{
+.content-app h1{
         color: var(--first-color);
         font-family: var(--first-font);
 font-weight: 700;
@@ -183,10 +183,10 @@ line-height: 85px;
    }
 .bottom-img{
     background-color:var(--second-color);
-    width: 25px;
-    border-radius: 10px;
+    width: 35px;
+    border-radius: 50%;
     border:1px solid #1E2939;
-   }
+  } 
 .img-project{
     width: 500px;
     height: 300px;
@@ -235,6 +235,11 @@ line-height: 85px;
         }
         .work-app p{
             font-size: 15px;
+        }
+        .content-app{
+            font-size: 45px;
+            margin: 0 auto;
+            text-align: center;
         }
         
     }
